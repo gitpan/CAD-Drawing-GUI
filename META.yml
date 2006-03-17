@@ -1,0 +1,26 @@
+---
+name: CAD-Drawing-GUI
+version: 0.01_01
+author:
+  - 'Eric L. Wilhelm <ewilhelm at cpan dot org>'
+abstract: A can of worms uncapped and recapped.
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  CAD::Calc: 0.25
+  CAD::DXF::Color: 0
+  CAD::Drawing: 0.26
+  Test::More: 0
+  Tk::Zinc: 3.3
+provides:
+  CAD::Drawing::GUI:
+    file: lib/CAD/Drawing/GUI.pm
+    version: 0.01_01
+  CAD::Drawing::GUI::View:
+    file: lib/CAD/Drawing/GUI/View.pm
+    version: 0.01
+generated_by: Module::Build version 0.2704
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
